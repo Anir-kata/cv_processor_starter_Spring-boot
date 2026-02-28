@@ -1,0 +1,6 @@
+com\sijo\cvprocessor\dao\CandidateDao.class
+com\sijo\cvprocessor\dto\CandidateDto.class
+com\sijo\cvprocessor\service\CandidateService.class
+com\sijo\cvprocessor\controller\CandidateController.class
+com\sijo\cvprocessor\CvProcessorApplication.class
+com\sijo\cvprocessor\model\Candidate.class
