@@ -24,4 +24,9 @@ public class CandidateController {
     public Candidate get(@PathVariable Long id) {
         return candidateService.getCandidate(id);
     }
+
+    @PutMapping("/{id}")
+    public Candidate update(@PathVariable Long id, @RequestBody CandidateDto dto) {
+        return candidateService.updateCandidate(id, dto);
+    }
 }

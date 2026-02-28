@@ -8,4 +8,6 @@ public interface CandidateService {
     Candidate createCandidate(CandidateDto dto);
 
     Candidate getCandidate(Long id);
+
+    Candidate updateCandidate(Long id, CandidateDto dto);
 }
