@@ -10,4 +10,6 @@ public interface CandidateService {
     Candidate getCandidate(Long id);
 
     Candidate updateCandidate(Long id, CandidateDto dto);
+
+    void deleteCandidate(Long id);
 }

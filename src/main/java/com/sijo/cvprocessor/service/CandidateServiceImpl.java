@@ -36,4 +36,10 @@ public class CandidateServiceImpl implements CandidateService {
         existing.setYearsOfExperience(dto.getYearsOfExperience());
         return candidateDao.save(existing);
     }
+
+    @Override
+    public void deleteCandidate(Long id) {
+        candidateDao.findById(id).orElseThrow(() -> new RuntimeException("Candidate not found"));
+        candidateDao.deleteById(id);
+    }
 }

@@ -29,4 +29,9 @@ public class CandidateController {
     public Candidate update(@PathVariable Long id, @RequestBody CandidateDto dto) {
         return candidateService.updateCandidate(id, dto);
     }
+
+    @DeleteMapping("/{id}")
+    public void delete(@PathVariable Long id) {
+        candidateService.deleteCandidate(id);
+    }
 }
