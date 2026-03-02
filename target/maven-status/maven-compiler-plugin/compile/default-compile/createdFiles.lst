@@ -1,3 +1,4 @@
+com\sijo\cvprocessor\service\CandidateServiceImpl.class
 com\sijo\cvprocessor\dao\CandidateDao.class
 com\sijo\cvprocessor\dto\CandidateDto.class
 com\sijo\cvprocessor\service\CandidateService.class
