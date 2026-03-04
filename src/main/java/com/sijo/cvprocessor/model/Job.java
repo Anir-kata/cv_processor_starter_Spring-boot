@@ -1,7 +1,14 @@
 package com.sijo.cvprocessor.model;
 
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "jobs")
 public class Job {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     private String title;
     private String description;
     private String location;
